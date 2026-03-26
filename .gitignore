@@ -1,0 +1,26 @@
+# Python
+*.pyc
+*~
+__pycache__
+
+# Env (Виртуальное окружение)
+.env
+myvenv/
+venv/
+
+# Database (Локальная база данных)
+db.sqlite3
+
+# Static folder (Статика)
+/static/
+
+# Системные файлы macOS
+._*
+.DS_Store
+
+# Системные файлы Windows
+Thumbs.db
+desktop.ini
+
+# Настройки VS Code
+.vscode/
