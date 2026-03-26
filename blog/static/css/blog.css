@@ -1,0 +1,33 @@
+.page-header {
+    background-color: #ff9d00;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #ffffff;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    font-size: 36pt;
+}
+
+.content {
+    margin-left: 40px;
+}
+
+h2 a, h2 a:visited {
+    color: #ff9d00;
+}
+
+.post {
+    margin-bottom: 70px;
+}
+
+.post h2 a {
+    font-family: 'Lobster', cursive;
+    font-size: 30pt;
+}
+
+.date {
+    color: #828282;
+}
