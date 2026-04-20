@@ -1,33 +1,62 @@
-.page-header {
-    background-color: #ff9d00;
-    margin-top: 0;
-    padding: 20px 20px 20px 40px;
+body {
+    background-color: #1a1a2e; /* Tmavě modré pozadí */
+    color: #e2e2e2;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
 
-.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+.page-header {
+    background: linear-gradient(90deg, #0f3460 0%, #533483 100%);
+    margin-top: 0;
+    padding: 40px 20px;
+    border-bottom: 3px solid #e94560; /* Neonová linka */
+    text-align: center;
+}
+
+.page-header h1 a {
     color: #ffffff;
-    font-family: 'Lobster', cursive;
+    font-weight: 800;
     text-decoration: none;
-    font-size: 36pt;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 42pt;
 }
 
 .content {
-    margin-left: 40px;
-}
-
-h2 a, h2 a:visited {
-    color: #ff9d00;
+    margin-top: 50px;
 }
 
 .post {
-    margin-bottom: 70px;
+    background-color: #16213e;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+
+.post:hover {
+    transform: translateY(-5px); /* Jemný efekt nadzvednutí */
 }
 
 .post h2 a {
-    font-family: 'Lobster', cursive;
-    font-size: 30pt;
+    color: #e94560;
+    font-size: 28pt;
+    text-decoration: none;
+}
+
+.post h2 a:hover {
+    color: #ff2e63;
 }
 
 .date {
-    color: #828282;
+    color: #95adbe;
+    font-size: 0.9em;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 14pt;
 }
